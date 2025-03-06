@@ -46,10 +46,10 @@ LOG_TO_WANDB = True
 
 print(HUB_MODEL_NAME)
 
-hf_token = "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"
+hf_token = ""
 login(hf_token, add_to_git_credential = False)
 
-wandb_api_key = "8bbdb6ecf43c5e47ff136a1de4c81d6610045b47"
+wandb_api_key = ""
 os.environ["WANDB_API_KEY"] = wandb_api_key
 wandb.login()
 
