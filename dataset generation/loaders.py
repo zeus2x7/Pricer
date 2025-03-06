@@ -8,7 +8,7 @@ from huggingface_hub import login
 CHUNK_SIZE = 1000
 MIN_PRICE =0.5
 MAX_PRICE = 999.49
-hf_token = "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"
+hf_token = ""
 login(hf_token, add_to_git_credential=True)
 class ItemLoader:
     

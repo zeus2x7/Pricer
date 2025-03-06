@@ -7,7 +7,7 @@ MIN_TOKENS = 150
 MAX_TOKENS = 160 
 MIN_CHARS = 300 
 CEILING_CHARS = MAX_TOKENS *7
-hf_token = "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"
+hf_token = ""
 login(hf_token, add_to_git_credential= False)
 class Item:
     tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL, trust_remote_code = True)
